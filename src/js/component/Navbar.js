@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 
 export const Navbar = props => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark  d-flex justify-content-between">
-			<a className="navbar-brand" href="#">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark pl-5 d-flex justify-content-between">
+			<a className="navbar-brand pl-5" href="#">
 				{props.title}
 			</a>
 
-			<div className="navbar" id="navbarText">
-				<ul className="navbar-nav">
+			<div className="navbar pr-5" id="navbarText">
+				<ul className="navbar-nav pr-3">
 					<li className="nav-item active">
 						<a className="nav-link" href="#">
 							Home

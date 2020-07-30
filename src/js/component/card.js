@@ -9,7 +9,7 @@ import "../../styles/index.scss";
 
 export const Card = () => {
 	return (
-		<div className="card">
+		<div className="card my-0 mx-2">
 			<img
 				className="card-img-top"
 				src="https://images.pexels.com/photos/945966/pexels-photo-945966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

@@ -14,7 +14,7 @@ export const Footer = props => {
 	return (
 		<footer className="page-footer font-small bg-dark pt-4">
 			,
-			<div className="footer-copyright text-center text-white py-3">
+			<div className="footer-copyright text-center text-white p-auto mb-2">
 				{props.textFooter}
 			</div>
 			,

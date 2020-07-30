@@ -9,7 +9,7 @@ import "../../styles/index.scss";
 
 export const Button = () => {
 	return (
-		<div className="card-footer caja1 text-center">
+		<div className="card-footer caja1 text-center my-0 mx-2 border">
 			<a href="#" className="btn btn-primary">
 				Find Out More!{" "}
 			</a>
